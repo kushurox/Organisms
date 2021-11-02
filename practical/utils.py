@@ -7,7 +7,7 @@ BLACK = 0, 0, 0
 
 
 class Organism(pygame.sprite.Sprite):
-    vector_mag = 200
+    vector_mag = 100
 
     def __init__(self):
         super(Organism, self).__init__()
